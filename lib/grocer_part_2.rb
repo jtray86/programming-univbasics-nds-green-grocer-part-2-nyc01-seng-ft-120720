@@ -55,7 +55,7 @@ def checkout(cart, coupons)
   
   index += 1 
   end
-  
+  total
   
   # Consult README for inputs and outputs
   #
