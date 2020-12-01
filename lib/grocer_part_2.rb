@@ -48,6 +48,12 @@ def checkout(cart, coupons)
   new_consolidate_cart = consolidate_cart(cart) 
   new_cart_with_coupons = apply_coupons(new_consolidate_cart, coupons)
   new_cart_with_discounts = apply_clearance(new_cart_with_coupons, cart)
+  while index < cart.length
+  
+  
+  
+  index += 1 
+  end
   
   
   # Consult README for inputs and outputs
