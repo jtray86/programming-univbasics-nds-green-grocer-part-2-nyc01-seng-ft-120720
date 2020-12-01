@@ -50,11 +50,11 @@ def checkout(cart, coupons)
   new_cart_with_discounts = apply_clearance(new_cart_with_coupons, cart)
   total = 0
   while index < new_cart_with_discounts.length
-    total += (new_cart_with_discounts[:price] * new_cart_with_discounts[:count]).round(2)
-  
+    total += (new_cart_with_discounts[index][:price] * new_cart_with_discounts[index][:count]).round(2)
   
   index += 1 
   end
+  
   total
   
   # Consult README for inputs and outputs
